@@ -240,3 +240,138 @@ footer span{
     font-size: 18px;
     color: white;
 }
+
+@media(max-width:420px){
+
+    .container {
+        width: 80vw;
+    }
+
+    .container_banner{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .imagem_banner {
+        height: 100%;
+        width: auto;
+    }
+
+    .box_conteudo{
+        top: 145px;
+        left: 35px;
+        align-items: center;
+    }
+
+    h1{
+        width: 360px;
+        font-size: 62px;
+    }
+
+    .hr_banner {
+        width: 360px;
+        margin: 20px 0;
+    }
+
+    .box_conteudo span {
+        font-size: 36px;
+        /* coloquei para ficar visiível por causa do fundo vermelho */
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #000000;
+    }
+
+    .mouse {
+        width: 45px;
+        margin-top: 30px;
+    }
+
+    .container_sobre{
+        height: auto;
+    }
+
+    .espacamento_sobre{
+        align-items: center;
+    }
+
+    .h2_sobre {
+        font-size: 52px;
+        margin: 50px 0;
+        font-weight: 400;
+    }
+
+    .box_sobre{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .imagem_sobre{
+        width: 80vw;
+    }
+
+    .box_sobre_textos span {
+        margin-top: 50px;
+    }
+
+    .h3_sobre {
+        font-size: 38px;
+        width: auto;
+        margin: 50px 0;
+    }
+
+    .box_sobre_textos p {
+        width: auto;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .info{
+        height: auto;
+        background-size: auto 500px;
+    }
+
+    .container_info {
+        flex-direction: column;
+    }
+
+    .box_info{
+        margin: 40px 0;
+    }
+
+    .endereco{
+        height: auto;
+        width: 100%;
+    }
+
+    .h2_endereco{
+    width: auto;
+    margin: 50px 0;
+    }
+
+    .box_endereco{
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .box_endereco p {
+        margin: 70px 40px;
+        font-size: 26px;
+    }
+
+    .endereco img{
+        position: unset;
+        margin-top: 50px;
+        margin-bottom: 120px;
+        width: 80vw;
+    }
+
+    footer span{
+        width: 268px;
+        text-align: center;
+    }
+
+
+}
